@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series: ",
+ "creation": "2023-12-14 18:45:45.466469",
+ "default_view": "List",
+ "description": "cascac\ncascascs-,###",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "def",
+  "ghj",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "abc",
+   "unique": 1
+  },
+  {
+   "fieldname": "def",
+   "fieldtype": "Data",
+   "label": "def"
+  },
+  {
+   "fieldname": "ghj",
+   "fieldtype": "Data",
+   "label": "ghj"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "series",
+   "options": "ttt\nghghg-,###"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-14 18:59:33.600460",
+ "modified_by": "Administrator",
+ "module": "Tutorial App",
+ "name": "learn with me",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-14 21:35:44.703701",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "age",
+  "relation"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "age"
+  },
+  {
+   "fieldname": "relation",
+   "fieldtype": "Data",
+   "label": "relation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-14 21:35:44.703701",
+ "modified_by": "Administrator",
+ "module": "Tutorial App",
+ "name": "family member",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

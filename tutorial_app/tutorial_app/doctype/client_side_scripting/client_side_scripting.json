@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PR-.####",
+ "creation": "2023-12-14 21:33:38.039028",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enable",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "column_break_n64bn",
+  "email",
+  "mob_no",
+  "dob",
+  "age",
+  "section_break_tfsfh",
+  "family_member",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enable",
+   "fieldtype": "Check",
+   "label": "enable"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "first name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "middle name "
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "last name "
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "full name "
+  },
+  {
+   "fieldname": "column_break_n64bn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email "
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Phone",
+   "label": "mob no"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "age"
+  },
+  {
+   "fieldname": "section_break_tfsfh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family_member",
+   "fieldtype": "Table",
+   "label": "family member ",
+   "options": "family member"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "client side scripting",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-14 21:37:32.902441",
+ "modified_by": "Administrator",
+ "module": "Tutorial App",
+ "name": "client side scripting",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
